@@ -1,0 +1,57 @@
+article{
+	background: brown;
+	height: 500px;
+	width: 500px;
+	
+	position:relative;
+}
+
+/* ---------- CHARRACTER ---------- */
+.character{
+	position: absolute;
+	border: solid 1px black;
+	width: 40%;
+	height: 40%;
+}
+.character .life{
+	height: 10%;
+	width: 90%;
+	border: solid 1px black;
+	background: black;
+}
+.character .life .bar{
+	background: green;
+	width: 100%;
+	height: 100%;
+}
+.character .speak{
+	position: absolute;
+	right: 0%;
+	top: 15%;
+	height: 20%;
+	width: 50%;
+	background: blue;
+}
+.character .body{
+	position: absolute;
+	left: 0;
+	top: 15%;
+	height: 85%;
+	width: 50%;
+	background: red;
+}
+
+
+
+.character.dead .body{
+	background: grey!important;
+}
+
+
+#ennemy-1{
+	display: none;
+}
+#ennemy-2{
+	top: 10%;
+	left: 10%;
+}
